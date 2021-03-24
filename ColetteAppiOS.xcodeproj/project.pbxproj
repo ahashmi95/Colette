@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FADE1939260B492300AB8CAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE1938260B492300AB8CAC /* AppDelegate.swift */; };
+		FADE193B260B492300AB8CAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE193A260B492300AB8CAC /* SceneDelegate.swift */; };
+		FADE193D260B492300AB8CAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE193C260B492300AB8CAC /* ViewController.swift */; };
+		FADE1940260B492300AB8CAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADE193E260B492300AB8CAC /* Main.storyboard */; };
+		FADE1942260B492700AB8CAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADE1941260B492700AB8CAC /* Assets.xcassets */; };
+		FADE1945260B492700AB8CAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADE1943260B492700AB8CAC /* LaunchScreen.storyboard */; };
+		FADE1950260B492700AB8CAC /* ColetteAppiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE194F260B492700AB8CAC /* ColetteAppiOSTests.swift */; };
+		FADE195B260B492700AB8CAC /* ColetteAppiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE195A260B492700AB8CAC /* ColetteAppiOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FADE194C260B492700AB8CAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADE192D260B492300AB8CAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADE1934260B492300AB8CAC;
+			remoteInfo = ColetteAppiOS;
+		};
+		FADE1957260B492700AB8CAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FADE192D260B492300AB8CAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FADE1934260B492300AB8CAC;
+			remoteInfo = ColetteAppiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FADE1935260B492300AB8CAC /* ColetteAppiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColetteAppiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADE1938260B492300AB8CAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FADE193A260B492300AB8CAC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FADE193C260B492300AB8CAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FADE193F260B492300AB8CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADE1941260B492700AB8CAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FADE1944260B492700AB8CAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FADE1946260B492700AB8CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADE194B260B492700AB8CAC /* ColetteAppiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColetteAppiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADE194F260B492700AB8CAC /* ColetteAppiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColetteAppiOSTests.swift; sourceTree = "<group>"; };
+		FADE1951260B492700AB8CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FADE1956260B492700AB8CAC /* ColetteAppiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColetteAppiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADE195A260B492700AB8CAC /* ColetteAppiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColetteAppiOSUITests.swift; sourceTree = "<group>"; };
+		FADE195C260B492700AB8CAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADE1932260B492300AB8CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE1948260B492700AB8CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE1953260B492700AB8CAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FADE192C260B492300AB8CAC = {
+			isa = PBXGroup;
+			children = (
+				FADE1937260B492300AB8CAC /* ColetteAppiOS */,
+				FADE194E260B492700AB8CAC /* ColetteAppiOSTests */,
+				FADE1959260B492700AB8CAC /* ColetteAppiOSUITests */,
+				FADE1936260B492300AB8CAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADE1936260B492300AB8CAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADE1935260B492300AB8CAC /* ColetteAppiOS.app */,
+				FADE194B260B492700AB8CAC /* ColetteAppiOSTests.xctest */,
+				FADE1956260B492700AB8CAC /* ColetteAppiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADE1937260B492300AB8CAC /* ColetteAppiOS */ = {
+			isa = PBXGroup;
+			children = (
+				FADE1938260B492300AB8CAC /* AppDelegate.swift */,
+				FADE193A260B492300AB8CAC /* SceneDelegate.swift */,
+				FADE193C260B492300AB8CAC /* ViewController.swift */,
+				FADE193E260B492300AB8CAC /* Main.storyboard */,
+				FADE1941260B492700AB8CAC /* Assets.xcassets */,
+				FADE1943260B492700AB8CAC /* LaunchScreen.storyboard */,
+				FADE1946260B492700AB8CAC /* Info.plist */,
+			);
+			path = ColetteAppiOS;
+			sourceTree = "<group>";
+		};
+		FADE194E260B492700AB8CAC /* ColetteAppiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				FADE194F260B492700AB8CAC /* ColetteAppiOSTests.swift */,
+				FADE1951260B492700AB8CAC /* Info.plist */,
+			);
+			path = ColetteAppiOSTests;
+			sourceTree = "<group>";
+		};
+		FADE1959260B492700AB8CAC /* ColetteAppiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FADE195A260B492700AB8CAC /* ColetteAppiOSUITests.swift */,
+				FADE195C260B492700AB8CAC /* Info.plist */,
+			);
+			path = ColetteAppiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADE1934260B492300AB8CAC /* ColetteAppiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADE195F260B492700AB8CAC /* Build configuration list for PBXNativeTarget "ColetteAppiOS" */;
+			buildPhases = (
+				FADE1931260B492300AB8CAC /* Sources */,
+				FADE1932260B492300AB8CAC /* Frameworks */,
+				FADE1933260B492300AB8CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColetteAppiOS;
+			productName = ColetteAppiOS;
+			productReference = FADE1935260B492300AB8CAC /* ColetteAppiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FADE194A260B492700AB8CAC /* ColetteAppiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADE1962260B492700AB8CAC /* Build configuration list for PBXNativeTarget "ColetteAppiOSTests" */;
+			buildPhases = (
+				FADE1947260B492700AB8CAC /* Sources */,
+				FADE1948260B492700AB8CAC /* Frameworks */,
+				FADE1949260B492700AB8CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADE194D260B492700AB8CAC /* PBXTargetDependency */,
+			);
+			name = ColetteAppiOSTests;
+			productName = ColetteAppiOSTests;
+			productReference = FADE194B260B492700AB8CAC /* ColetteAppiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FADE1955260B492700AB8CAC /* ColetteAppiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADE1965260B492700AB8CAC /* Build configuration list for PBXNativeTarget "ColetteAppiOSUITests" */;
+			buildPhases = (
+				FADE1952260B492700AB8CAC /* Sources */,
+				FADE1953260B492700AB8CAC /* Frameworks */,
+				FADE1954260B492700AB8CAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FADE1958260B492700AB8CAC /* PBXTargetDependency */,
+			);
+			name = ColetteAppiOSUITests;
+			productName = ColetteAppiOSUITests;
+			productReference = FADE1956260B492700AB8CAC /* ColetteAppiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADE192D260B492300AB8CAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					FADE1934260B492300AB8CAC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					FADE194A260B492700AB8CAC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FADE1934260B492300AB8CAC;
+					};
+					FADE1955260B492700AB8CAC = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = FADE1934260B492300AB8CAC;
+					};
+				};
+			};
+			buildConfigurationList = FADE1930260B492300AB8CAC /* Build configuration list for PBXProject "ColetteAppiOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADE192C260B492300AB8CAC;
+			productRefGroup = FADE1936260B492300AB8CAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADE1934260B492300AB8CAC /* ColetteAppiOS */,
+				FADE194A260B492700AB8CAC /* ColetteAppiOSTests */,
+				FADE1955260B492700AB8CAC /* ColetteAppiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADE1933260B492300AB8CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADE1945260B492700AB8CAC /* LaunchScreen.storyboard in Resources */,
+				FADE1942260B492700AB8CAC /* Assets.xcassets in Resources */,
+				FADE1940260B492300AB8CAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE1949260B492700AB8CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE1954260B492700AB8CAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADE1931260B492300AB8CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADE193D260B492300AB8CAC /* ViewController.swift in Sources */,
+				FADE1939260B492300AB8CAC /* AppDelegate.swift in Sources */,
+				FADE193B260B492300AB8CAC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE1947260B492700AB8CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADE1950260B492700AB8CAC /* ColetteAppiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FADE1952260B492700AB8CAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADE195B260B492700AB8CAC /* ColetteAppiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FADE194D260B492700AB8CAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADE1934260B492300AB8CAC /* ColetteAppiOS */;
+			targetProxy = FADE194C260B492700AB8CAC /* PBXContainerItemProxy */;
+		};
+		FADE1958260B492700AB8CAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FADE1934260B492300AB8CAC /* ColetteAppiOS */;
+			targetProxy = FADE1957260B492700AB8CAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FADE193E260B492300AB8CAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADE193F260B492300AB8CAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FADE1943260B492700AB8CAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADE1944260B492700AB8CAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FADE195D260B492700AB8CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FADE195E260B492700AB8CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADE1960260B492700AB8CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJ8UG488NS;
+				INFOPLIST_FILE = ColetteAppiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.colette.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FADE1961260B492700AB8CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJ8UG488NS;
+				INFOPLIST_FILE = ColetteAppiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.colette.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FADE1963260B492700AB8CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJ8UG488NS;
+				INFOPLIST_FILE = ColetteAppiOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.colette.ColetteAppiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColetteAppiOS.app/ColetteAppiOS";
+			};
+			name = Debug;
+		};
+		FADE1964260B492700AB8CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJ8UG488NS;
+				INFOPLIST_FILE = ColetteAppiOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.colette.ColetteAppiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColetteAppiOS.app/ColetteAppiOS";
+			};
+			name = Release;
+		};
+		FADE1966260B492700AB8CAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJ8UG488NS;
+				INFOPLIST_FILE = ColetteAppiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.colette.ColetteAppiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColetteAppiOS;
+			};
+			name = Debug;
+		};
+		FADE1967260B492700AB8CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DJ8UG488NS;
+				INFOPLIST_FILE = ColetteAppiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.colette.ColetteAppiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColetteAppiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADE1930260B492300AB8CAC /* Build configuration list for PBXProject "ColetteAppiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADE195D260B492700AB8CAC /* Debug */,
+				FADE195E260B492700AB8CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADE195F260B492700AB8CAC /* Build configuration list for PBXNativeTarget "ColetteAppiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADE1960260B492700AB8CAC /* Debug */,
+				FADE1961260B492700AB8CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADE1962260B492700AB8CAC /* Build configuration list for PBXNativeTarget "ColetteAppiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADE1963260B492700AB8CAC /* Debug */,
+				FADE1964260B492700AB8CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADE1965260B492700AB8CAC /* Build configuration list for PBXNativeTarget "ColetteAppiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADE1966260B492700AB8CAC /* Debug */,
+				FADE1967260B492700AB8CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FADE192D260B492300AB8CAC /* Project object */;
+}
