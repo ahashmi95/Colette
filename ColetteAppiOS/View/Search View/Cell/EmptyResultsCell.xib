@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="EmptyResultsCell" id="9mP-0N-bZs" customClass="EmptyResultsCell" customModule="SallaCustomerAppIOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="578" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="578" height="300"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BLM-VT-vDd">
+                        <rect key="frame" x="0.0" y="0.0" width="578" height="300"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0N1-ea-eLo">
+                                <rect key="frame" x="268" y="139.5" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0N1-ea-eLo" firstAttribute="centerY" secondItem="BLM-VT-vDd" secondAttribute="centerY" id="QWc-hk-Xtp"/>
+                            <constraint firstItem="0N1-ea-eLo" firstAttribute="centerX" secondItem="BLM-VT-vDd" secondAttribute="centerX" id="koY-NH-UWz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="BLM-VT-vDd" firstAttribute="leading" secondItem="9mP-0N-bZs" secondAttribute="leading" id="2Nf-Rn-aOW"/>
+                <constraint firstAttribute="bottom" secondItem="BLM-VT-vDd" secondAttribute="bottom" id="Qmo-cx-pIi"/>
+                <constraint firstAttribute="trailing" secondItem="BLM-VT-vDd" secondAttribute="trailing" id="X6x-ny-AbY"/>
+                <constraint firstItem="BLM-VT-vDd" firstAttribute="top" secondItem="9mP-0N-bZs" secondAttribute="top" id="fuz-qC-meI"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="zup-b4-wgA"/>
+            <size key="customSize" width="578" height="300"/>
+            <connections>
+                <outlet property="contantLbl" destination="0N1-ea-eLo" id="1nM-ZK-IFS"/>
+            </connections>
+            <point key="canvasLocation" x="360.86956521739131" y="60.9375"/>
+        </collectionViewCell>
+    </objects>
+</document>

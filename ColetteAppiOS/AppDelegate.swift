@@ -1,19 +1,18 @@
 //
 //  AppDelegate.swift
-//  ColetteAppiOS
+//  ColetteApp
 //
-//  Created by Abdulrahman A. Hashmi on 24/03/2021.
+//  Created by Abdulrahman A. Hashmi on 25/03/2021.
 //
 
 import UIKit
+import Firebase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        FirebaseApp.configure()
         return true
     }
 
